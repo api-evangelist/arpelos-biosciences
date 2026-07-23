@@ -1,8 +1,14 @@
 aid: arpelos-biosciences
 name: Arpelos Biosciences
-description: Arpelos Biosciences is a company surfaced as a portfolio company of wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Arpelos Biosciences is a seed-stage biotechnology company based in Kendall
+  Square, Cambridge, developing multivalent medicines — therapeutics engineered for high
+  potency and selectivity by engaging multiple targets or sites simultaneously. The founding
+  team comprises scientists from UCSF, Penn, Stanford, and MIT spanning computational biology,
+  immunology, and protein engineering, and the company is backed by prominent biotech investors
+  including Wing Venture Capital. Arpelos currently operates as a stealth-stage research company
+  with a single-page web presence and does not publish a public API, developer portal, SDKs, or
+  technical documentation; this profile is maintained in the API Evangelist network as a company
+  identity record awaiting any future developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/arpelos-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +16,42 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Therapeutics
+- Drug Discovery
+- Protein Engineering
+- Computational Biology
+image: https://www.arpelos.com/favicon.ico
 apis: []
+common:
+- type: Website
+  url: https://www.arpelos.com
+- type: DomainSecurity
+  url: security/arpelos-biosciences-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
