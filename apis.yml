@@ -10,6 +10,9 @@ description: Arpelos Biosciences is a seed-stage biotechnology company based in 
   technical documentation; this profile is maintained in the API Evangelist network as a company
   identity record awaiting any future developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/arpelos-biosciences/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Arpelos currently operates as a stealth-stage research company with a single-page web presence and does not publish a public API, developer portal, SDKs, or technical documentation; this profile is ma"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
